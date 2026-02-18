@@ -10,7 +10,7 @@
     "explanation": "Karena جَاءَ adalah kalimat yang menunjukan makna disertai zaman."
   },
   {
-    "question": "\"\"جَاءَ\"\" termasuk kategori fi'il apa?",
+    "question": "Lafadz \"\"جَاءَ\"\" termasuk kategori fi'il apa?",
     "option_A": "مَاضِي",
     "option_B": "مُضَارِعٌ",
     "option_C": "أَمْرٌ",
@@ -20,7 +20,7 @@
     "explanation": "Termasuk فِعْل مَاضِي karena menunjukan zaman مَاضِي (lampau)."
   },
   {
-    "question": "\"\"جَاءَ\"\" adalah fi'il apa?",
+    "question": "Lafadz \"\"جَاءَ\"\" adalah fi'il apa?",
     "option_A": "رُبَاعِيّ",
     "option_B": "خُمَاسِيٌّ",
     "option_C": "ثُلَاثِيٌّ",
@@ -30,43 +30,43 @@
     "explanation": "Karena huruf aslinya tiga, yaitu ج، ي، ء."
   },
   {
-    "question": "\"\"جَاءَ\"\" termasuk bina apa?",
+    "question": "Lafadz \"\"جَاءَ\"\" termasuk bina apa?",
     "option_A": "صَحِيح",
     "option_B": "نَاقِصٌ وَاوِيٌّ",
     "option_C": "لَفِيفٌ مَقْرُونٌ",
-    "option_D": "أَجْوَفٌ يَائِيٌّ، مَهْمُوزُ اللَّامِ",
+    "option_D": "أَجْوَف يَائِيٌّ، مَهْمُوزُ اللَّامِ",
     "option_E": "مُضَاعَفٌ",
-    "answer_index": "0",
+    "answer_index": "3",
     "explanation": "Memiliki 2 bina', yaitu bina' أَجْوَف يَائِي dan مَهْمُوْز لَام, karena huruf fi'il asalnya ياء dan lam fi'il berupa hamzah."
   },
   {
-    "question": "Apa hukum \"\"جَاءَ\"\"?",
+    "question": "Apa hukum lafadz \"\"جَاءَ\"\"?",
     "option_A": "مُتَعَدٍّ",
     "option_B": "لَازِمٌ",
     "option_C": "وَاسِطَةٌ",
     "option_D": "جَامِدٌ",
     "option_E": "مُنْكَرٌ",
-    "answer_index": "3",
+    "answer_index": "0",
     "explanation": "Karena bisa menasobkan maf'ul bih, contoh: ۞ وَلَقَدْ جَآءَكُم مُّوسَىٰ بِٱلْبَيِّنَٰتِ."
   },
   {
-    "question": "Apa status lafadz \"\"زَيْدٌ\"\"?",
+    "question": "Apa status lafadz \"\"زَيْدٌ\"\" dalam contoh yang sudah disebutkan?",
     "option_A": "مُضَافٌ إِلَيْهِ",
     "option_B": "مَفْعُولٌ بِهِ",
     "option_C": "مُبْتَدَأٌ",
     "option_D": "فَاعِلٌ",
     "option_E": "حَالٌ",
-    "answer_index": "1",
+    "answer_index": "3",
     "explanation": "Menjadi فَاعِل dari جَاءَ, karena زَيْدٌ adalah pelaku perkerjaan dari جَاءَ."
   },
   {
-    "question": "Apakah boleh menjadi نَائِبُ الْفَاعِلِ?",
+    "question": "Apakah boleh lafadz \"\"زَيْدٌ\"\" menjadi نَائِبُ الْفَاعِلِ?",
     "option_A": "tidak bisa",
     "option_B": "bisa",
     "option_C": "kondisional",
     "option_D": "semua jawaban salah",
     "option_E": "semua jawaban benar",
-    "answer_index": "3",
+    "answer_index": "0",
     "explanation": "Tidak boleh, karena نائب الفاعل dirofa'kan oleh fi'il مبني مجهول, sedangkan جَاءَ adalah fi'il مبني معلوم."
   },
   {
@@ -76,7 +76,7 @@
     "option_C": "جَاءَ",
     "option_D": "فَاعِلِيَّةٌ",
     "option_E": "لَا عَامِلَ لَهُ",
-    "answer_index": "0",
+    "answer_index": "2",
     "explanation": "  lafadz جَاءَ, karena فَاعِل di'amili oleh فِعْل atau شِبْه فِعْل."
   },
   {
@@ -86,7 +86,7 @@
     "option_C": "نَكِرَةٌ",
     "option_D": "أَعْرَفُ الْمَعَارِفِ",
     "option_E": "أَنْكَرُ النَّكِرَاتِ",
-    "answer_index": "2",
+    "answer_index": "1",
     "explanation": "Termasuk مَعْرِفَة, karena زَيْدٌ adalah عَلَم (nama)."
   },
   {
@@ -160,7 +160,7 @@
     "explanation": "Dirofa'kan dengan ضَمَّة karena اسْم مُفْرَد."
   },
   {
-    "question": "\"\"قَامَ\"\" termasuk kategori fi'il apa?",
+    "question": "Lafadz \"\"قَامَ\"\" termasuk kategori fi'il apa?",
     "option_A": "مُتَعَدٍّ",
     "option_B": "وَاسِطَةٌ",
     "option_C": "مُلْغَاةٌ",
@@ -170,7 +170,7 @@
     "explanation": "Termasuk fi'ilلَازِمْ karena tidak bisa menashobkan maf'ul bih."
   },
   {
-    "question": "\"\"قَامَ\"\" termasuk kategori fi'il apa?",
+    "question": "Lafadz \"\"قَامَ\"\" termasuk kategori fi'il apa?",
     "option_A": "مُشْتَقٌّ",
     "option_B": "جَامِدٌ",
     "option_C": "مُسْتَقٌّ",
