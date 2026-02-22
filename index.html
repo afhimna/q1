@@ -311,17 +311,17 @@ body.page-ready{opacity:1}
   opacity:1;
   transform:translateY(0);
 }
-#homeBtn{
+#HomeBtn{
   background:linear-gradient(135deg,#f59e0b,#ca8a04);
   box-shadow:0 4px 14px rgba(245,158,11,.4);
 }
 
-#homeBtn:hover{
+#HomeBtn:hover{
   transform:translateY(-2px);
   box-shadow:0 8px 22px rgba(245,158,11,.55);
 }
 
-#homeBtn:active{
+#HomeBtn:active{
   transform:scale(.96);
 }
 </style>
@@ -916,7 +916,9 @@ document.addEventListener("click", function(e){
   if(e.target.id === "explainBtn"){
     window.open("https://afhimna.github.io/e1", "_blank");
   }
-
+  if(e.target.id === "HomeBtn"){
+  window.open("https://afhimna.github.io/home", "_blank");
+  
   if(e.target.id === "shareBtn"){
 
     generateProImage(blob => {
@@ -924,8 +926,6 @@ document.addEventListener("click", function(e){
       const file = new File([blob], "Nilai-kuis-AFHIMNA.png", {
         type: "image/png"
       });
-      if(e.target.id === "homeBtn"){
-  window.open("https://afhimna.github.io/home", "_blank");
 }
 
       const shareText = `Saya mendapat nilai ${percent} di Kuis AFHIMNA! kunjungi link afhimna.github.io/home`;
