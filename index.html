@@ -899,15 +899,12 @@ function showGlobalSummary(){
   requestAnimationFrame(()=>{
     box.classList.add("show");
   });
-
+	
   box.scrollIntoView({behavior:"smooth",block:"center"});
 }
 document.addEventListener("click", function(e){
 
-  const percent = document.getElementById("finalPercent")?.textContent || "";
-  const shareText = encodeURIComponent(
-    `Saya mendapat nilai ${percent} di Kuis AFHIMNA! Coba juga di sini: ${window.location.href}`
-  );
+   const percent = document.getElementById("finalPercent")?.textContent || "";
 
   if(e.target.id === "retryBtn"){
     location.reload();
@@ -916,9 +913,11 @@ document.addEventListener("click", function(e){
   if(e.target.id === "explainBtn"){
     window.open("https://afhimna.github.io/e1", "_blank");
   }
+
   if(e.target.id === "HomeBtn"){
-  window.open("https://afhimna.github.io/home", "_blank");
-  
+    window.open("https://afhimna.github.io/home", "_blank");
+  }
+
   if(e.target.id === "shareBtn"){
 
     generateProImage(blob => {
