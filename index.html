@@ -920,35 +920,35 @@ document.addEventListener("click", function(e){
 
   if(e.target.id === "shareBtn"){
 
-    generateProImage(blob => {
+  generateProImage((blob) => {
 
-      const file = new File([blob], "Nilai-kuis-AFHIMNA.png", {
-        type: "image/png"
-      });
-}
-
-      const shareText = `Saya mendapat nilai ${percent} di Kuis AFHIMNA! kunjungi link afhimna.github.io/home`;
-
-      if(navigator.share && navigator.canShare({ files: [file] })){
-
-        navigator.share({
-          title: "Nilai-kuis-AFHIMNA",
-          text: shareText,
-          files: [file]
-        });
-
-      }else{
-
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement("a");
-        a.href = url;
-        a.download = "Nilai-kuis-AFHIMNA.png";
-        a.click();
-
-        alert("Gambar diunduh. Silakan bagikan secara manual.");
-      }
-
+    const file = new File([blob], "Nilai-kuis-AFHIMNA.png", {
+      type: "image/png"
     });
+
+    const shareText = `Saya mendapat nilai ${percent}% di Kuis AFHIMNA! Kunjungi: https://afhimna.github.io/home`;
+
+    if(navigator.share && navigator.canShare && navigator.canShare({ files: [file] })){
+
+      navigator.share({
+        title: "Nilai-kuis-AFHIMNA",
+        text: shareText,
+        files: [file]
+      }).catch(()=>{});
+
+    } else {
+
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "Nilai-kuis-AFHIMNA.png";
+      a.click();
+
+      alert("Gambar diunduh. Silakan bagikan secara manual.");
+    }
+
+  });
+
 }
 }); 
 async function generateProImage(callback){
